@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: jenkinsx/spring-568489525
-  tag: dev
+  repository: 10.101.145.100:5000/jenkinsx/spring-568489525
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: java
